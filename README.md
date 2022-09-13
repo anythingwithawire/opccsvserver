@@ -6,7 +6,8 @@ messy code needs a tidy but does what I need for now
 csv file format:
 tag, value
 
-example use 
+example use
+
 ./opccsvserver 0.0.0.0 4840 -f ../asim006_chuditch/data/CALCsmVar.txt
 
 ./opccsvserver 0.0.0.0 4840 -m -f ../asim006_chuditch/data/csvfilelist.txt
@@ -21,6 +22,7 @@ converting strings to tags and getting asych problems
 Needs to be killed to stop, ctrl-c will leave a process behind that hogs the port
 
 main.py = source
+
 opccsvserver = compiled by pyinstaller for ubuntu 22.04
 
 Its handy, but use at yoiur peril
